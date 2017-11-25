@@ -21,6 +21,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     compile group: 'io.netty', name: 'netty-all', version: '4.1.17.Final'
+    compile 'io.github.microutils:kotlin-logging:1.4.6'
 }
 
 jar {
